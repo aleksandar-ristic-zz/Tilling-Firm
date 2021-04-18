@@ -94,32 +94,7 @@
         asNavFor: '.testimonial-slider'
     });
     $('.testimonial .slider-nav').css({"position": "relative", "height": "160px"});
-    
-    
-    // Blogs carousel
-    $(".related-slider").owlCarousel({
-        autoplay: true,
-        dots: false,
-        loop: true,
-        nav : true,
-        navText : [
-            '<i class="fa fa-angle-left" aria-hidden="true"></i>',
-            '<i class="fa fa-angle-right" aria-hidden="true"></i>'
-        ],
-        responsive: {
-            0:{
-                items:1
-            },
-            576:{
-                items:1
-            },
-            768:{
-                items:2
-            }
-        }
-    });
-    
-    
+
     // Portfolio isotope and filter
     var portfolioIsotope = $('.portfolio-container').isotope({
         itemSelector: '.portfolio-item',
