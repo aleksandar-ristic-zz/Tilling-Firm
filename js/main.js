@@ -1,10 +1,14 @@
 (function ($) {
     "use strict";
     
-    // Initiate the wowjs
-    new WOW().init();
-    
-    
+    // Initiate Animation on Scroll
+    AOS.init({
+        duration: 1200,
+        easing: 'ease-in-out',
+        once: false,
+        mirror: false
+    })
+
     // Back to top button
     $(window).scroll(function () {
         if ($(this).scrollTop() > 200) {
@@ -18,7 +22,6 @@
         return false;
     });
     
-    
     // Sticky Navbar
     $(window).scroll(function () {
         if ($(this).scrollTop() > 90) {
@@ -29,7 +32,6 @@
             $('.carousel, .page-header').css("margin-top", "0");
         }
     });
-    
     
     // Dropdown on mouse hover
     $(document).ready(function () {
@@ -48,13 +50,11 @@
         $(window).resize(toggleNavbarMethod);
     });
     
-    
     // jQuery counterUp
     $('[data-toggle="counter-up"]').counterUp({
         delay: 10,
         time: 2000
     });
-    
     
     // Modal Video
     $(document).ready(function () {
@@ -72,7 +72,6 @@
             $("#video").attr('src', $videoSrc);
         })
     });
-
 
     // Testimonial Slider
     $('.testimonial-slider').slick({
@@ -109,4 +108,3 @@
     });
     
 })(jQuery);
-
