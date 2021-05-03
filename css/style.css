@@ -25,6 +25,7 @@ body {
     background: var(--light-color);
     font-family: 'Lato', sans-serif;
     font-weight: 400;
+    font-size: 16px;
 }
 
 h1,
@@ -58,6 +59,7 @@ a:focus {
     width: 100%;
     margin: 0 auto;
     background: var(--light-color);
+    overflow: hidden;
 }
 
 .back-to-top {
@@ -65,13 +67,13 @@ a:focus {
     display: none;
     background: var(--main-color);
     color: var(--black-color);
-    width: 44px;
-    height: 44px;
+    width: 2.75rem;
+    height: 2.75rem;
     text-align: center;
     line-height: 1;
-    font-size: 22px;
-    right: 15px;
-    bottom: 15px;
+    font-size: 1.4rem;
+    right: 1rem;
+    bottom: 1rem;
     transition: all .5s;
     z-index: 9;
 }
@@ -136,7 +138,7 @@ a:focus {
 .top-bar .top-bar-text h3 {
     margin: 0 0 5px 0;
     color: var(--dark-color);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -264,6 +266,11 @@ a:focus {
     
     .nav-bar .btn {
         display: none;
+    }
+
+    .navbar-nav {
+        margin-top: 1.6rem;
+        place-items: center;
     }
 }
 
@@ -710,6 +717,10 @@ a:focus {
     color: var(--main-color);
 }
 
+.fact .row.counters {
+    overflow: hidden;
+}
+
 /********* Service Section *********/
 .service {
     position: relative;
@@ -980,7 +991,7 @@ a:focus {
 
 .team .team-social a {
     position: relative;
-    left: 0;
+    right: 0;
     width: 50px;
     height: 50px;
     display: flex;
@@ -1163,26 +1174,16 @@ a:focus {
 .testimonial .testimonial-slider-nav .slick-slide img {
     position: relative;
     display: block;
-    margin-top: 37px;
-    width: 100%;
-    height: auto;
-    border-radius: 100px;
+    margin-top: 35px;
+    width: auto;
+    height: 90px;
+    border-radius: 50px;
 }
 
 .testimonial .testimonial-slider {
     position: relative;
     margin-top: 15px;
     padding-top: 50px;
-}
-
-.testimonial .testimonial-slider::before {
-    position: absolute;
-    content: "";
-    width: 60px;
-    height: 50px;
-    top: 0;
-    left: calc(50% - 30px);
-    background: url(../img/quote.png) top center no-repeat;
 }
 
 .testimonial .testimonial-slider h3 {
