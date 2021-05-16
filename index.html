@@ -1,743 +1,363 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="Keramika keramicar Keramika Zlaja" name="keywords">
-        <meta content="Keramika Zlaja - Zlatan Milovanović, preduzetnik" name="description">
-        <link href="img/logo/favicon.ico" rel="icon">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-        <title>Keramika Zlaja</title>
+ <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Keramika, keramicar, Keramika, Zlaja" name="keywords">
+    <meta content="Keramika Zlaja - Zlatan Milovanović, preduzetnik" name="description">
+    <link href="img/logo/favicon.ico" rel="icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Keramika Zlaja</title>      
 <!--=== CSS Libraries ===-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
-        <link href="lib/flaticon/font/flaticon.css" rel="stylesheet"> 
-        <link href="lib/animate/animate.min.css" rel="stylesheet">
-        <link href="lib/aos/aos.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-        <link href="lib/slick/slick.css" rel="stylesheet">
-        <link href="lib/slick/slick-theme.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet"> 
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/aos/aos.css" rel="stylesheet">
 <!--=== External Css ===-->
-        <link href="css/style.css" rel="stylesheet">
-    </head>
-    <body>
-        <div class="wrapper">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="wrapper">
+
 <!--=== Top Bar Start ===-->
-            <div class="top-bar">
-                <div class="container-fluid">
-                    <div class="row align-items-center">
-                        <div class="col-lg-4 col-md-12">
-                            <div class="title">
-                                <a href="">
-                                    <h1>Keramika Zlaja</h1>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-8 col-md-7 d-none d-lg-block">
-                            <div class="row">
-                                <div class="col-4">
-                                    <div class="top-bar-item">
-                                        <div class="top-bar-icon">
-                                            <i class="flaticon-calendar"></i>
-                                        </div>
-                                        <div class="top-bar-text">
-                                            <h3>Radno Vreme</h3>
-                                            <p>Pon - Sub, 8:00 - 17:00</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="top-bar-item">
-                                        <div class="top-bar-icon">
-                                            <i class="flaticon-call"></i>
-                                        </div>
-                                        <div class="top-bar-text">
-                                            <h3>Kontakt telefon</h3>
-                                            <p>+381 64 154 24 45</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="top-bar-item">
-                                        <div class="top-bar-icon">
-                                            <i class="flaticon-send-mail"></i>
-                                        </div>
-                                        <div class="top-bar-text">
-                                            <h3>Email</h3>
-                                            <p>zlaja@hotmail.com</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- Top Bar End -->
-<!--=== Nav Bar Start ===-->
-            <div class="nav-bar">
-                <div class="container-fluid">
-                    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-                        <a href="#" class="navbar-brand">MENI</a>
-                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-
-                        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                            <div class="navbar-nav mr-auto">
-                                <a href="index.html" class="nav-item nav-link active">Glavna</a>
-                                <a href="about.html" class="nav-item nav-link">O nama</a>
-                                <a href="service.html" class="nav-item nav-link">Usluge</a>
-                                <a href="portfolio.html" class="nav-item nav-link">Projekti</>
-                                <a href="contact.html" class="nav-item nav-link">Kontakt</a>
-                            </div>
-                            <div class="logo mx-auto">
-                                <a href="index.html">
-                                    <img src="img/logo/logo.svg" alt="">
-                                </a>
-                            </div>
-                            <div class="ml-auto">
-                                <a class="btn" href="#">Za firme</a>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-            </div><!-- Nav Bar End -->
-<!--=== Carousel Start ===-->
-            <div id="carousel" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel" data-slide-to="1"></li>
-                    <li data-target="#carousel" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active" >
-                        <img src="img/carousel-1.jpg" alt="Carousel Image">
-                        <div class="carousel-caption">
-                            <p class="animated fadeInLeft">Mi smo majstori svog zanata</p>
-                            <h1 class="animated fadeInRight">Ostvarujemo Vaše snove</h1>
-                            <a class="btn animated fadeInUp" href="">Samo poziv daleko</a>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <img src="img/carousel-2.jpg" alt="Carousel Image">
-                        <div class="carousel-caption">
-                            <p class="animated fadeInRight">Najbolji smo u svom poslu</p>
-                            <h1 class="animated fadeInLeft">Vi smislite mi uradimo</h1>
-                            <a class="btn animated fadeInUp" href="">Pošaljite poruku</a>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <img src="img/carousel-3.jpg" alt="Carousel Image">
-                        <div class="carousel-caption">
-                            <p class="animated fadeInRight">Firma od poverenja </p>
-                            <h1 class="animated fadeInLeft">Uvek prevazilazimo Vaša očekivanja</h1>
-                            <a class="btn animated fadeInUp" href="">Stupimo u kontakt</a>
-                        </div>
-                    </div>
-                </div>
-
-                <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Nazad</span>
-                </a>
-                <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Napred</span>
-                </a>
-            </div><!-- Carousel End -->
-<!--=== Feature Start ===-->
-            <div class="feature" data-aos="fade-up" data-aos-delay=".1s">
-                <div class="container-fluid">
-                    <div class="row align-items-center">
-                        <div class="col-lg-4 col-md-12">
-                            <div class="feature-item">
-                                <div class="feature-icon">
-                                    <i class="flaticon-worker"></i>
-                                </div>
-                                <div class="feature-text">
-                                    <h3>Eksperti u svojoj branši</h3>
-                                    <p>Lorem ipsum dolor sit amet elit. Phasus nec pretim ornare velit non</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-12">
-                            <div class="feature-item">
-                                <div class="feature-icon">
-                                    <i class="flaticon-building"></i>
-                                </div>
-                                <div class="feature-text">
-                                    <h3>Kvalitetan posao</h3>
-                                    <p>Lorem ipsum dolor sit amet elit. Phasus nec pretim ornare velit non</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-12">
-                            <div class="feature-item">
-                                <div class="feature-icon">
-                                    <i class="flaticon-call"></i>
-                                </div>
-                                <div class="feature-text">
-                                    <h3>24h / 7 dana u nedelji</h3>
-                                    <p>Lorem ipsum dolor sit amet elit. Phasus nec pretim ornare velit non</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- Feature End-->
-<!--=== About Start ===-->
-            <div class="about" data-aos="fade-up" data-aos-delay=".1s">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-5 col-md-6">
-                            <div class="about-img">
-                                <img src="img/about.jpg" alt="Image">
-                            </div>
-                        </div>
-                        <div class="col-lg-7 col-md-6">
-                            <div class="section-header text-left">
-                                <p>Keramika Zlaja</p>
-                                <h2>25 godina iskustva</h2>
-                            </div>
-                            <div class="about-text">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
-                                </p>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam interdum at lacus non blandit.
-                                </p>
-                                <a class="btn" href="">Više Informacija</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- About End -->
-<!--=== Fact Start ===-->
-            <div class="fact">
-                <div class="container-fluid">
-                    <div class="row counters">
-                        <div class="col-md-6 fact-left" data-aos="fade-up-right" data-aos-delay=".1s">
-                            <div class="row">
-                                <div class="col-6">
-                                    <div class="fact-icon">
-                                        <i class="flaticon-worker"></i>
-                                    </div>
-                                    <div class="fact-text">
-                                        <h2 data-toggle="counter-up">109</h2>
-                                        <p>Zadovoljnih klijenata</p>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="fact-icon">
-                                        <i class="flaticon-building"></i>
-                                    </div>
-                                    <div class="fact-text">
-                                        <h2 data-toggle="counter-up">485</h2>
-                                        <p>Poslovnih prostora</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 fact-right" data-aos="fade-up-left" data-aos-delay=".1s">
-                            <div class="row">
-                                <div class="col-6">
-                                    <div class="fact-icon">
-                                        <i class="flaticon-address"></i>
-                                    </div>
-                                    <div class="fact-text">
-                                        <h2 data-toggle="counter-up">789</h2>
-                                        <p>Završenih projekata</p>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="fact-icon">
-                                        <i class="flaticon-crane"></i>
-                                    </div>
-                                    <div class="fact-text">
-                                        <h2 data-toggle="counter-up">890</h2>
-                                        <p>Renovacija</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- Fact End -->
-<!--=== Service Start ===-->
-            <div class="service">
-                <div class="container">
-                    <div class="section-header text-center">
-                        <p>Naše usluge</p>
-                        <h2>Imamo širok asortiman</h2>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6" data-aos="fade-left" data-aos-delay=".3s">
-                            <div class="service-item">
-                                <div class="service-img">
-                                    <img src="img/service-1.jpg" alt="Image">
-                                    <div class="service-overlay">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="service-text">
-                                    <h3>Sređivanje poslovnog prostora</h3>
-                                    <a class="btn" href="img/service-1.jpg" data-lightbox="service">+</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay=".1s">
-                            <div class="service-item">
-                                <div class="service-img">
-                                    <img src="img/service-2.jpg" alt="Image">
-                                    <div class="service-overlay">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="service-text">
-                                    <h3>Renovacija kuće</h3>
-                                    <a class="btn" href="img/service-2.jpg" data-lightbox="service">+</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6" data-aos="fade-right" data-aos-delay=".3s">
-                            <div class="service-item">
-                                <div class="service-img">
-                                    <img src="img/service-3.jpg" alt="Image">
-                                    <div class="service-overlay">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="service-text">
-                                    <h3>Dizajn eksterijera</h3>
-                                    <a class="btn" href="img/service-3.jpg" data-lightbox="service">+</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6" data-aos="fade-left" data-aos-delay=".6s">
-                            <div class="service-item">
-                                <div class="service-img">
-                                    <img src="img/service-4.jpg" alt="Image">
-                                    <div class="service-overlay">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="service-text">
-                                    <h3>Dizajn enterijera</h3>
-                                    <a class="btn" href="img/service-4.jpg" data-lightbox="service">+</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay=".4s">
-                            <div class="service-item">
-                                <div class="service-img">
-                                    <img src="img/service-5.jpg" alt="Image">
-                                    <div class="service-overlay">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="service-text">
-                                    <h3>Opravke i prepravke</h3>
-                                    <a class="btn" href="img/service-5.jpg" data-lightbox="service">+</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6" data-aos="fade-right" data-aos-delay=".6s">
-                            <div class="service-item">
-                                <div class="service-img">
-                                    <img src="img/service-6.jpg" alt="Image">
-                                    <div class="service-overlay">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="service-text">
-                                    <h3>Profesionalni saveti</h3>
-                                    <a class="btn" href="img/service-6.jpg" data-lightbox="service">+</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- Service End -->
-<!--=== Video Start ===-->
-            <div class="video" data-aos="zoom-in" data-aos-delay=".1s">
-                <div class="container">
-                    <button type="button" class="btn-play" data-toggle="modal" data-src="https://www.youtube.com/embed/EHLZoz14CLo" data-target="#videoModal">
-                        <span></span>
-                    </button>
+<div class="top-bar">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-lg-4 col-md-12">
+                <div class="title">
+                    <a href="">
+                        <h1>Keramika Zlaja</h1>
+                    </a>
                 </div>
             </div>
-            
-            <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-body">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>        
-                            <div class="embed-responsive embed-responsive-16by9">
-                                <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+            <div class="col-lg-8 col-md-7 d-none d-lg-block">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="top-bar-item">
+                            <div class="top-bar-icon">
+                                <i class="flaticon-calendar"></i>
+                            </div>
+                            <div class="top-bar-text">
+                                <h3>Radno Vreme</h3>
+                                <p>Pon - Sub, 8:00 - 17:00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="top-bar-item">
+                            <div class="top-bar-icon">
+                                <i class="flaticon-call"></i>
+                            </div>
+                            <div class="top-bar-text">
+                                <h3>Kontakt telefon</h3>
+                                <p>+381 64 154 24 45</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="top-bar-item">
+                            <div class="top-bar-icon">
+                                <i class="flaticon-send-mail"></i>
+                            </div>
+                            <div class="top-bar-text">
+                                <h3>Email</h3>
+                                <p>zlaja@hotmail.com</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div><!-- Video End -->
-<!--=== Team Start ===-->
-            <div class="team">
-                <div class="container">
-                    <div class="section-header text-center">
-                        <p>Naš tim</p>
-                        <h2>Upoznajte naše eksperte</h2>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4" data-aos="fade-left" data-aos-delay=".4s">
-                            <div class="team-item">
-                                <div class="team-img">
-                                    <img src="img/employee-srdjan.jpg" alt="Team Image">
-                                </div>
-                                <div class="team-text">
-                                    <h2>Srđan</h2>
-                                    <p>Majstor Keramičar</p>
-                                </div>
-                                <div class="team-social">
-                                    <a class="social-tw" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a class="social-in" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4" data-aos="fade-up" data-aos-delay=".1s">
-                            <div class="team-item">
-                                <div class="team-img">
-                                    <img src="img/employee-ceo.jpg" alt="Team Image">
-                                </div>
-                                <div class="team-text">
-                                    <h2>Zlatan Milovanović</h2>
-                                    <p>Generalni Direktor i osnivač</p>
-                                </div>
-                                <div class="team-social">
-                                    <a class="social-tw" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a class="social-in" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4" data-aos="fade-right" data-aos-delay=".4s">
-                            <div class="team-item">
-                                <div class="team-img">
-                                    <img src="img/employee-jova.jpg" alt="Team Image">
-                                </div>
-                                <div class="team-text">
-                                    <h2>Jova</h2>
-                                    <p>Projektant</p>
-                                </div>
-                                <div class="team-social">
-                                    <a class="social-tw" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a class="social-in" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- Team End -->
-<!--=== FAQs Start ===-->
-            <div class="faqs">
-                <div class="container">
-                    <div class="section-header text-center">
-                        <p>Česta Pitanja</p>
-                        <h2>Možete nas pitati</h2>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div id="accordion-1">
-                                <div class="card" data-aos="fade-left" data-aos-delay=".1s">
-                                    <div class="card-header">
-                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseOne">
-                                            El mož doći sutra ?
-                                        </a>
-                                    </div>
-                                    <div id="collapseOne" class="collapse" data-parent="#accordion-1">
-                                        <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card" data-aos="fade-left" data-aos-delay=".2s">
-                                    <div class="card-header">
-                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseTwo">
-                                            El može na rate?
-                                        </a>
-                                    </div>
-                                    <div id="collapseTwo" class="collapse" data-parent="#accordion-1">
-                                        <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card" data-aos="fade-left" data-aos-delay=".3s">
-                                    <div class="card-header">
-                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseThree">
-                                            Jel mož doći od 5. do 1.?
-                                        </a>
-                                    </div>
-                                    <div id="collapseThree" class="collapse" data-parent="#accordion-1">
-                                        <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card" data-aos="fade-left" data-aos-delay=".4s">
-                                    <div class="card-header">
-                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseFour">
-                                            Jel mogu italijanske pločice iz Bosne?
-                                        </a>
-                                    </div>
-                                    <div id="collapseFour" class="collapse" data-parent="#accordion-1">
-                                        <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card" data-aos="fade-left" data-aos-delay=".5s">
-                                    <div class="card-header">
-                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseFive">
-                                            Jel možeš da mi ispišeš šta sve treba pa da zovem drugu firmu?
-                                        </a>
-                                    </div>
-                                    <div id="collapseFive" class="collapse" data-parent="#accordion-1">
-                                        <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div id="accordion-2">
-                                <div class="card" data-aos="fade-right" data-aos-delay=".1s">
-                                    <div class="card-header">
-                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseSix">
-                                            Jel kupuješ ti materijal?
-                                        </a>
-                                    </div>
-                                    <div id="collapseSix" class="collapse" data-parent="#accordion-2">
-                                        <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card" data-aos="fade-right" data-aos-delay=".2s">
-                                    <div class="card-header">
-                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseSeven">
-                                            Koliko vas dolazi i jel sami kuvate sebi kafu?
-                                        </a>
-                                    </div>
-                                    <div id="collapseSeven" class="collapse" data-parent="#accordion-2">
-                                        <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card" data-aos="fade-right" data-aos-delay=".3s">
-                                    <div class="card-header">
-                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseEight">
-                                            Jel volite roštilj za ručak?
-                                        </a>
-                                    </div>
-                                    <div id="collapseEight" class="collapse" data-parent="#accordion-2">
-                                        <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card" data-aos="fade-right" data-aos-delay=".4s">
-                                    <div class="card-header">
-                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseNine">
-                                            Jel može deo para sad, a deo za par meseci, godina?
-                                        </a>
-                                    </div>
-                                    <div id="collapseNine" class="collapse" data-parent="#accordion-2">
-                                        <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card" data-aos="fade-right" data-aos-delay=".5s">
-                                    <div class="card-header">
-                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseTen">
-                                            Jel moguće velike pločice na zid a male na pod?
-                                        </a>
-                                    </div>
-                                    <div id="collapseTen" class="collapse" data-parent="#accordion-2">
-                                        <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- FAQs End -->
-<!--=== Testimonial Start ===-->
-            <div class="testimonial" data-aos="zoom-in" data-aos-delay=".1s">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="testimonial-slider-nav">
-                                <div class="slider-nav"><img src="img/testimonial-1.jpg" alt="Testimonial"></div>
-                                <div class="slider-nav"><img src="img/testimonial-2.jpg" alt="Testimonial"></div>
-                                <div class="slider-nav"><img src="img/testimonial-3.jpg" alt="Testimonial"></div>
-                                <div class="slider-nav"><img src="img/testimonial-1.jpg" alt="Testimonial"></div>
-                                <div class="slider-nav"><img src="img/testimonial-2.jpg" alt="Testimonial"></div>
-                                <div class="slider-nav"><img src="img/testimonial-3.jpg" alt="Testimonial"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="testimonial-slider">
-                                <div class="slider-item">
-                                    <h3>Milojko Dončić</h3>
-                                    <h4>Rančer, Uzde i dizgine</h4>
-                                    <p>Keramika Zlaja je najbolja firma sa kojom sam radio. Oni kad uradu to je urađeto, brale moj. Nisam morao da opravljam za njima.</p>
-                                </div>
-                                <div class="slider-item">
-                                    <h3>Vlastimir Stojšić</h3>
-                                    <h4>Broker, Brokeri s Moravu</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus.</p>
-                                </div>
-                                <div class="slider-item">
-                                    <h3>Simonida Vlajkić</h3>
-                                    <h4>Direktor Nabavke, HRK doo</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus.</p>
-                                </div>
-                                <div class="slider-item">
-                                    <h3>Milojko Dončić</h3>
-                                    <h4>Rančer, Uzde i dizgine</h4>
-                                    <p>Keramika Zlaja je najbolja firma sa kojom sam radio. Oni kad uradu to je urađeto, brale moj. Nisam morao da opravljam za njima.</p>
-                                </div>
-                                <div class="slider-item">
-                                    <h3>Vlastimir Stojšić</h3>
-                                    <h4>Broker, Brokeri s Moravu</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus.</p>
-                                </div>
-                                <div class="slider-item">
-                                    <h3>Simonida Vlajkić</h3>
-                                    <h4>Direktor Nabavke, HRK doo</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- Testimonial End -->
-<!--=== Footer Start ===-->
-            <div class="footer" data-aos="fade-up" data-aos-delay=".3s">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-lg-3">
-                            <div class="footer-contact">
-                                <h2>Kancelarija</h2>
-                                <p><i class="fa fa-map-marker-alt"></i>Neka ulica broj,Ravnje</p>
-                                <p><i class="fa fa-phone-alt"></i>+381 64 554 54 54</p>
-                                <p><i class="fa fa-envelope"></i>zlaja@hotmail.com</p>
-                                <div class="footer-social">
-                                    <a href=""><i class="fab fa-twitter"></i></a>
-                                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a href=""><i class="fab fa-youtube"></i></a>
-                                    <a href=""><i class="fab fa-instagram"></i></a>
-                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3">
-                            <div class="footer-link">
-                                <h2>Domen usluga</h2>
-                                <a href="">Sređivanje poslovnog prostora</a>
-                                <a href="">Renovacija Kuće</a>
-                                <a href="">Dizajn Enterijera</a>
-                                <a href="">Dizajn Eksterijera</a>
-                                <a href="">Opravke i Prepravke</a>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3">
-                            <div class="footer-link">
-                                <h2>Korisne Strane</h2>
-                                <a href="">O nama</a>
-                                <a href="">Kontaktirajte nas</a>
-                                <a href="">Naš tim</a>
-                                <a href="">Projekti</a>
-                                <a href="">Mišljenja klijenata</a>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3">
-                            <div class="newsletter">
-                                <h2>Obaveštenja</h2>
-                                <p>
-                                    Pošalji nam svoj email, pa ćemo mi stupiti u kontak sa tobom.
-                                </p>
-                                <div class="form">
-                                    <input class="form-control" placeholder="Email here">
-                                    <button class="btn">Pošalji</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container footer-menu">
-                    <div class="f-menu">
-                        <a href="">Pravila Korišćenja</a>
-                        <a href="">Politika Privatnosti</a>
-                        <a href="">Kolačići</a>
-                        <a href="">Pomoć</a>
-                        <a href="">Česta Pitanja</a>
-                    </div>
-                </div>
-                <div class="container copyright">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <p>&copy; <a href="#">Keramika Zlaja</a>, Sva prava zadržana</p>
-                        </div>
-                        <div class="col-md-6">
-                            <p>Dizajnirano u <a href="">Akademske svrhe.</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- Footer End -->
-            <!-- Back To Top Link -->
-            <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+            </div>
         </div>
+    </div>
+</div><!-- Top Bar End -->            
+<!--=== Nav Bar Start ===-->
+<div class="nav-bar">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <a href="#" class="navbar-brand">MENI</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav mr-auto">
+                    <a href="index.html" class="nav-item nav-link active">Glavna</a>
+                    <a href="about.html" class="nav-item nav-link">O nama</a>
+                    <a href="service.html" class="nav-item nav-link">Usluge</a>
+                    <a href="portfolio.html" class="nav-item nav-link">Projekti</>
+                    <a href="contact.html" class="nav-item nav-link">Kontakt</a>
+                </div>
+                <div class="logo mx-auto">
+                    <a href="index.html">
+                        <img src="img/logo/logo.svg" alt="">
+                    </a>
+                </div>
+                <div class="ml-auto">
+                    <a class="btn" href="#">Za firme</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div><!-- Nav Bar End -->
+
+<!--=== Carousel Start ===-->
+<div id="carousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active" >
+            <img src="img/carousel-1.jpg" alt="Carousel Image">
+            <div class="carousel-caption">
+                <p class="animated fadeInLeft">Mi smo majstori svog zanata</p>
+                <h1 class="animated fadeInRight">Ostvarujemo Vaše snove</h1>
+                <a class="btn animated fadeInUp" href="">Samo poziv daleko</a>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <img src="img/carousel-2.jpg" alt="Carousel Image">
+            <div class="carousel-caption">
+                <p class="animated fadeInRight">Najbolji smo u svom poslu</p>
+                <h1 class="animated fadeInLeft">Vi smislite mi uradimo</h1>
+                <a class="btn animated fadeInUp" href="">Pošaljite poruku</a>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <img src="img/carousel-3.jpg" alt="Carousel Image">
+            <div class="carousel-caption">
+                <p class="animated fadeInRight">Firma od poverenja </p>
+                <h1 class="animated fadeInLeft">Uvek prevazilazimo Vaša očekivanja</h1>
+                <a class="btn animated fadeInUp" href="">Stupimo u kontakt</a>
+            </div>
+        </div>
+    </div>
+
+    <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Nazad</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Napred</span>
+    </a>
+</div><!-- Carousel End --> 
+
+<!--=== Feature Start ===-->
+<section class="feature" data-aos="fade-up" data-aos-delay=".1s">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-lg-4 col-md-12">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="flaticon-worker"></i>
+                    </div>
+                    <div class="feature-text">
+                        <h3>Eksperti u svojoj branši</h3>
+                        <p>Lorem ipsum dolor sit amet elit. Phasus nec pretim ornare velit non</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="flaticon-building"></i>
+                    </div>
+                    <div class="feature-text">
+                        <h3>Kvalitetan posao</h3>
+                        <p>Lorem ipsum dolor sit amet elit. Phasus nec pretim ornare velit non</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="flaticon-call"></i>
+                    </div>
+                    <div class="feature-text">
+                        <h3>24h / 7 dana u nedelji</h3>
+                        <p>Lorem ipsum dolor sit amet elit. Phasus nec pretim ornare velit non</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!-- Feature End--> 
+
+<!--=== Video Start ===-->
+<section class="video" data-aos="zoom-in" data-aos-delay=".1s">
+    <div class="container">
+        <button type="button" class="btn-play" data-toggle="modal" data-src="https://www.youtube.com/embed/EHLZoz14CLo" data-target="#videoModal">
+            <span></span>
+        </button>
+    </div>
+</section>
+
+<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>        
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- Video End -->
+
+<!--=== Team Start ===-->
+<section class="team">
+    <div class="container">
+        <div class="section-header text-center">
+            <p>Naš tim</p>
+            <h2>Upoznajte naše eksperte</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-4" data-aos="fade-left" data-aos-delay=".4s">
+                <div class="team-item">
+                    <div class="team-img">
+                        <img src="img/employee-srdjan.jpg" alt="Team Image">
+                    </div>
+                    <div class="team-text">
+                        <h2>Srđan</h2>
+                        <p>Majstor Keramičar</p>
+                    </div>
+                    <div class="team-social">
+                        <a class="social-tw" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-in" href=""><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay=".1s">
+                <div class="team-item">
+                    <div class="team-img">
+                        <img src="img/employee-ceo.jpg" alt="Team Image">
+                    </div>
+                    <div class="team-text">
+                        <h2>Zlatan Milovanović</h2>
+                        <p>Generalni Direktor i osnivač</p>
+                    </div>
+                    <div class="team-social">
+                        <a class="social-tw" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-in" href=""><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4" data-aos="fade-right" data-aos-delay=".4s">
+                <div class="team-item">
+                    <div class="team-img">
+                        <img src="img/employee-jova.jpg" alt="Team Image">
+                    </div>
+                    <div class="team-text">
+                        <h2>Jova</h2>
+                        <p>Projektant</p>
+                    </div>
+                    <div class="team-social">
+                        <a class="social-tw" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-in" href=""><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!-- Team End -->           
+
+<!--=== Footer Start ===-->
+<section class="footer" data-aos="fade-up" data-aos-delay=".3s">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-3">
+                <div class="footer-contact">
+                    <h2>Kancelarija</h2>
+                    <p><i class="fa fa-map-marker-alt"></i>Neka ulica broj,Ravnje</p>
+                    <p><i class="fa fa-phone-alt"></i>+381 64 554 54 54</p>
+                    <p><i class="fa fa-envelope"></i>zlaja@hotmail.com</p>
+                    <div class="footer-social">
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-youtube"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="footer-link">
+                    <h2>Domen usluga</h2>
+                    <a href="">Sređivanje poslovnog prostora</a>
+                    <a href="">Renovacija Kuće</a>
+                    <a href="">Dizajn Enterijera</a>
+                    <a href="">Dizajn Eksterijera</a>
+                    <a href="">Opravke i Prepravke</a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="footer-link">
+                    <h2>Korisne Strane</h2>
+                    <a href="">O nama</a>
+                    <a href="">Kontaktirajte nas</a>
+                    <a href="">Naš tim</a>
+                    <a href="">Projekti</a>
+                    <a href="">Mišljenja klijenata</a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="newsletter">
+                    <h2>Obaveštenja</h2>
+                    <p>
+                        Pošalji nam svoj email, pa ćemo mi stupiti u kontak sa tobom.
+                    </p>
+                    <div class="form">
+                        <input class="form-control" placeholder="Vaš email">
+                        <button class="btn">Pošalji</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container footer-menu">
+        <div class="f-menu">
+            <a href="">Pravila Korišćenja</a>
+            <a href="">Politika Privatnosti</a>
+            <a href="">Kolačići</a>
+            <a href="">Pomoć</a>
+            <a href="">Česta Pitanja</a>
+        </div>
+    </div>
+    <div class="container copyright">
+        <div class="row">
+            <div class="col-md-6">
+                <p>&copy; <a href="#">Keramika Zlaja</a>, Sva prava zadržana</p>
+            </div>
+            <div class="col-md-6">
+                <p>Dizajnirano u <a href="">Akademske svrhe.</a></p>
+            </div>
+        </div>
+    </div>
+</section><!-- Footer End -->
+
+<!-- Back To Top Link -->
+<a href="#" class="back-to-top"><i class="fas fa-chevron-up"></i></a>
+</div><!-- Wrapper ends-->
 <!--=== JavaScript Libraries ===-->
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/aos/aos.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-        <script src="lib/isotope/isotope.pkgd.min.js"></script>
-        <script src="lib/lightbox/js/lightbox.min.js"></script>
-        <script src="lib/waypoints/waypoints.min.js"></script>
-        <script src="lib/counterup/counterup.min.js"></script>
-        <script src="lib/slick/slick.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/aos/aos.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>   
 <!--=== External JavaScript ===-->
-        <script src="js/main.js"></script>
-    </body>
+    <script src="js/main.js"></script>
+</body>
 </html>
