@@ -1,16 +1,24 @@
 /*
 * *** *** Table of Contents *** ***
-1. Basic layout
-2. Top Bar
-3. Navbar
-4. Carousel
-5. Page Header
-6. 
-7.
-8.
-9.
+1.  Basic layout
+2.  TopBar
+3.  NavBar
+4.  Carousel
+5.  Page Header
+6.  Section Header
+7.  Feature
+8.  About
+9.  Fact
+10. Service
+11. Video
+12. Team
+13. FAQs
+14. Testimonial
+15. Portfolio
+16. Contact
+17. Footer
 */
-/* *** *** Basic Layout *** *** */
+/* *** *** 1. Basic Layout *** *** */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 
 :root {
@@ -91,7 +99,7 @@ a:focus {
     transition: .3s;
 }
 
-/* *** *** *** Top Bar Section *** *** *** */
+/* *** *** *** 2. TopBar Section *** *** *** */
 .top-bar {
     position: relative;
     height: 90px;
@@ -161,7 +169,7 @@ a:focus {
     }
 }
 
-/*********** Nav Bar Section **********/
+/*********** 3. NavBar Section **********/
 .nav-bar {
     position: relative;
     background: var(--main-color);
@@ -274,7 +282,7 @@ a:focus {
     }
 }
 
-/******** Carousel Section *********/
+/*** *** 4. Carousel *** ***/
 .carousel {
     position: relative;
     width: 100%;
@@ -395,7 +403,7 @@ a:focus {
     animation-duration: 1.5s;
 }
 
-/******* Page Header Section *******/
+/* *** *** 6. Page Header Section *** *** */
 .page-header {
     position: relative;
     margin-bottom: 45px;
@@ -477,7 +485,7 @@ a:focus {
     }
 }
 
-/******* Section Header ********/
+/******* 6. Section Header ********/
 .section-header {
     position: relative;
     width: 100%;
@@ -504,7 +512,7 @@ a:focus {
     }
 }
 
-/********* Feature Section *********/
+/*** *** *** 7. Feature Section *** *** ***/
 .feature {
     position: relative;
     margin-bottom: 45px;
@@ -596,7 +604,7 @@ a:focus {
     color: var(--main-color);
 }
 
-/* *** *** *** About Section *** *** *** */
+/* *** *** *** 8. About Section *** *** *** */
 .about {
     position: relative;
     width: 100%;
@@ -650,7 +658,7 @@ a:focus {
     }
 }
 
-/********** Fact Section ***********/
+/**** *** *** 9. Fact Section *** *** ***/
 .fact {
     position: relative;
     width: 100%;
@@ -721,7 +729,7 @@ a:focus {
     overflow: hidden;
 }
 
-/********* Service Section *********/
+/*** *** *** 10. Service Section *** *** ***/
 .service {
     position: relative;
     width: 100%;
@@ -811,7 +819,7 @@ a:focus {
     color: var(--light-color);
 }
 
-/********** Video Section **********/
+/********** 11. Video Section **********/
 .video {
     position: relative;
     margin: 45px 0;
@@ -929,7 +937,7 @@ a:focus {
     opacity: 1;
 }
 
-/*********** Team Section **********/
+/*********** 12. Team Section **********/
 .team {
     position: relative;
     width: 100%;
@@ -983,7 +991,7 @@ a:focus {
     position: absolute;
     width: 100px;
     top: 0;
-    left: -50px;
+    right: -100px;
     display: flex;
     flex-direction: column;
     font-size: 0;
@@ -1003,29 +1011,29 @@ a:focus {
 
 .team .team-item:hover .team-social a:first-child {
     background: #00acee;
-    left: 50px;
-    transition: .3s 0s;
+    right: 50px;
+    transition: .3s;
 }
 
 .team .team-item:hover .team-social a:nth-child(2) {
     background: #3b5998;
-    left: 50px;
+    right: 50px;
     transition: .3s .1s;
 }
 
 .team .team-item:hover .team-social a:nth-child(3) {
     background: #0e76a8;
-    left: 50px;
+    right: 50px;
     transition: .3s .2s;
 }
 
 .team .team-item:hover .team-social a:nth-child(4) {
     background: #3f729b;
-    left: 50px;
+    right: 50px;
     transition: .3s .3s;
 }
 
-/*********** FAQs Section **********/
+/*********** 13. FAQs Section **********/
 .faqs {
     position: relative;
     width: 100%;
@@ -1128,7 +1136,7 @@ a:focus {
     border-top: none;
 }
 
-/******* Testimonial Section *******/
+/******* 14. Testimonial Section *******/
 .testimonial {
     position: relative;
     margin: 45px 0;
@@ -1207,175 +1215,7 @@ a:focus {
     margin: 0;
 }
 
-/*********** Sidebar Section **********/
-.sidebar {
-    position: relative;
-    width: 100%;
-}
-
-@media(max-width: 991.98px) {
-    .sidebar {
-        margin-top: 45px;
-    }
-}
-
-.sidebar .sidebar-widget {
-    position: relative;
-    margin-bottom: 45px;
-}
-
-.sidebar .sidebar-widget .widget-title {
-    position: relative;
-    margin-bottom: 30px;
-    padding-bottom: 5px;
-    font-size: 30px;
-    font-weight: 700;
-}
-
-.sidebar .sidebar-widget .widget-title::after {
-    position: absolute;
-    content: "";
-    width: 60px;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background: var(--main-color);
-}
-
-.sidebar .sidebar-widget .search-widget {
-    position: relative;
-}
-
-.sidebar .search-widget input {
-    height: 50px;
-    border: 1px solid #dddddd;
-    border-radius: 0;
-}
-
-.sidebar .search-widget input:focus {
-    box-shadow: none;
-}
-
-.sidebar .search-widget .btn {
-    position: absolute;
-    top: 6px;
-    right: 15px;
-    height: 40px;
-    padding: 0;
-    font-size: 25px;
-    color: var(--main-color);
-    background: none;
-    border-radius: 0;
-    border: none;
-    transition: .3s;
-}
-
-.sidebar .search-widget .btn:hover {
-    color: var(--dark-color);
-}
-
-.sidebar .sidebar-widget .recent-post {
-    position: relative;
-}
-
-.sidebar .sidebar-widget .tab-post {
-    position: relative;
-}
-
-.sidebar .tab-post .nav.nav-pills .nav-link {
-    color: var(--main-color);
-    background: var(--dark-color);
-    border-radius: 0;
-}
-
-.sidebar .tab-post .nav.nav-pills .nav-link:hover,
-.sidebar .tab-post .nav.nav-pills .nav-link.active {
-    color: var(--dark-color);
-    background: var(--main-color);
-}
-
-.sidebar .tab-post .tab-content {
-    padding: 15px 0 0 0;
-    background: transparent;
-}
-
-.sidebar .tab-post .tab-content .container {
-    padding: 0;
-}
-
-.sidebar .sidebar-widget .category-widget {
-    position: relative;
-}
-
-.sidebar .category-widget ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.sidebar .category-widget ul li {
-    margin: 0 0 12px 22px; 
-}
-
-.sidebar .category-widget ul li:last-child {
-    margin-bottom: 0; 
-}
-
-.sidebar .category-widget ul li a {
-    display: inline-block;
-    line-height: 23px;
-}
-
-.sidebar .category-widget ul li::before {
-    position: absolute;
-    content: '\f105';
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 900;
-    color: var(--main-color);
-    left: 1px;
-}
-
-.sidebar .category-widget ul li span {
-    display: block;
-    float: right;
-}
-
-.sidebar .sidebar-widget .tag-widget {
-    position: relative;
-    margin: -5px -5px;
-}
-
-.single .tag-widget a {
-    margin: 5px;
-    display: inline-block;
-    padding: 7px 15px;
-    font-size: 14px;
-    font-weight: 400;
-    color: #666;
-    border: 1px solid #ddd;
-}
-
-.single .tag-widget a:hover {
-    color: var(--main-color);
-    background: var(--dark-color);
-}
-
-.sidebar .image-widget {
-    display: block;
-    width: 100%;
-    overflow: hidden;
-}
-
-.sidebar .image-widget img {
-    max-width: 100%;
-    transition: .3s;
-}
-
-.sidebar .image-widget img:hover {
-    transform: scale(1.1);
-}
-
-/******** Portfolio Section ********/
+/******** 15. Portfolio Section ********/
 .portfolio {
     position: relative;
     padding: 45px 0;
@@ -1515,7 +1355,7 @@ a:focus {
     background: var(--main-color);
 }
 
-/********* Contact Section *********/
+/********* 16. Contact Section *********/
 .contact {
     position: relative;
     width: 100%;
@@ -1642,7 +1482,7 @@ a:focus {
     list-style-type: none;
 }
 
-/********* Footer Section **********/
+/********* 17. Footer Section **********/
 .footer {
     position: relative;
     margin-top: 45px;
