@@ -610,6 +610,7 @@ a:focus {
     width: 100%;
     padding: 45px 0;
     background-image: url(../img/logo/logo.png);
+    background-size: 20%;
     background-repeat: no-repeat;
     background-position: right bottom;
 }
@@ -652,6 +653,10 @@ a:focus {
 }
 
 @media (max-width: 767.98px) {
+    .about {
+        background-size: 30%;
+    }
+
     .about .about-img {
         margin-bottom: 30px;
         height: auto;
@@ -830,6 +835,14 @@ a:focus {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.video img {
+    position: absolute;
+    height: 35vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .video .btn-play {
@@ -1151,6 +1164,21 @@ a:focus {
 
 .testimonial .container {
     max-width: 760px;
+}
+
+.testimonial .quote {
+    position: absolute;
+    height: 10vh;
+    top: 45%;
+    right: 30%;
+    opacity: .35;
+}
+
+.testimonial .tes-logo {
+    position: absolute;
+    height: 20vh;
+    top: -10%;
+    left: 0;
 }
 
 .about-page .testimonial {
